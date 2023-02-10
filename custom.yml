@@ -13,7 +13,6 @@ packages:
   - luci-app-uhttpd
   - dnsmasq-full
   - luci-app-commands
-  - luci-app-mwan3
   - luci-app-wireguard
   - wireguard
   - luci-app-eqos
