@@ -4,6 +4,9 @@ feeds:
   - name: helloworld
     uri: https://github.com/fw876/helloworld.git
     branch: master
+  - name: luci-app-ddns-go
+    uri: https://github.com/sirpdboy/luci-app-ddns-go.git
+    branch: main  
 packages:
   - luci-app-ssr-plus
   - luci-app-ddns
@@ -17,6 +20,7 @@ packages:
   - wireguard
   - luci-app-eqos
   - wireguard-tools
+  - luci-app-ddns-go
 
 
 
