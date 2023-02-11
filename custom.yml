@@ -15,7 +15,10 @@ feeds:
     branch: luci
   - name: luci-theme-argon
     uri: https://github.com/jerrykuku/luci-theme-argon.git
-    branch:  master   
+    branch:  master
+  - name: luci-theme-infinityfreedom
+    uri: https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git
+    branch:  master       
 packages:
   - luci-app-ssr-plus
   - luci-app-ddns
@@ -30,6 +33,7 @@ packages:
   - wireguard-tools
   - luci-app-ddns-go
   - luci-theme-argon
+  -luci-theme-infinityfreedom
 
 
 
