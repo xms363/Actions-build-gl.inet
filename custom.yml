@@ -4,6 +4,9 @@ feeds:
   - name: helloworld
     uri: https://github.com/fw876/helloworld.git
     branch: master
+   - name: luci-theme-argon
+    uri: https://github.com/jerrykuku/luci-theme-argon.git
+    branch:  master   
 packages:
   - luci-app-ssr-plus
   - luci-app-ddns
@@ -18,6 +21,7 @@ packages:
   - wireguard
   - luci-app-eqos
   - wireguard-tools
+  - luci-theme-argon
 
 
 
