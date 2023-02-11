@@ -24,7 +24,6 @@ packages:
   - luci-app-commands
   - luci-app-wireguard
   - wireguard
-  - luci-app-eqos
   - wireguard-tools
   - luci-app-ddns-go
 
