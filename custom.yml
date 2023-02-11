@@ -12,7 +12,10 @@ feeds:
     branch: packages
   - name: luci-app-passwall
     uri: https://github.com/xiaorouji/openwrt-passwall.git
-    branch: luci    
+    branch: luci
+  - name: luci-theme-argon
+    uri: https://github.com/jerrykuku/luci-theme-argon.git
+    branch:  master   
 packages:
   - luci-app-ssr-plus
   - luci-app-ddns
@@ -26,6 +29,7 @@ packages:
   - wireguard
   - wireguard-tools
   - luci-app-ddns-go
+  - luci-theme-argon
 
 
 
