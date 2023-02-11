@@ -4,11 +4,21 @@ feeds:
   - name: helloworld
     uri: https://github.com/fw876/helloworld.git
     branch: master
+  - name: openwrt-passwall
+    uri: https://github.com/xiaorouji/openwrt-passwall.git
+    branch: packages
+  - name: luci-app-passwall
+    uri: https://github.com/xiaorouji/openwrt-passwall.git
+    branch: luci
   - name: luci-theme-argon
     uri: https://github.com/jerrykuku/luci-theme-argon.git
     branch:  master
+  - name: luci-theme-infinityfreedom
+    uri: https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git
+    branch:  master       
 packages:
   - luci-app-ssr-plus
+  - luci-app-passwall
   - luci-app-ddns
   - ddns-scripts
   - ddns-scripts-services
@@ -20,6 +30,8 @@ packages:
   - wireguard
   - wireguard-tools
   - luci-theme-argon
+  -luci-theme-infinityfreedom
+
 
 
 diffconfig: |
