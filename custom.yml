@@ -6,7 +6,7 @@ feeds:
     branch: master
    - name: luci-theme-argon
     uri: https://github.com/jerrykuku/luci-theme-argon.git
-    revision: f992473
+    revision: b2b96d81d94e80940fdc3e5ea88742d797bdf8f8
 packages:
   - luci-app-ssr-plus
   - luci-app-ddns
