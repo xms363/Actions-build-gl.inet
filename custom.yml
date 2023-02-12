@@ -16,7 +16,6 @@ packages:
   - luci-app-uhttpd
   - dnsmasq-full
   - luci-app-commands
-  - luci-theme-argon
 
 
 diffconfig: |
