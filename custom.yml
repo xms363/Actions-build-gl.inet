@@ -6,7 +6,7 @@ feeds:
     branch: master
    - name: luci-theme-argon
     uri: https://github.com/jerrykuku/luci-theme-argon.git
-    branch:  master   
+    branch:  master
 packages:
   - luci-app-ssr-plus
   - luci-app-ddns
