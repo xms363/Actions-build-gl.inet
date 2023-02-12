@@ -4,9 +4,6 @@ feeds:
   - name: helloworld
     uri: https://github.com/fw876/helloworld.git
     branch: master
-   - name: luci-theme-argon
-    uri: https://github.com/jerrykuku/luci-theme-argon.git
-    revision: b2b96d81d94e80940fdc3e5ea88742d797bdf8f8
 packages:
   - luci-app-ssr-plus
   - luci-app-ddns
