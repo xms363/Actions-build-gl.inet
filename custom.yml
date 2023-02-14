@@ -4,6 +4,9 @@ feeds:
   - name: helloworld
     uri: https://github.com/fw876/helloworld.git
     branch: master
+  - name: ddns_go
+    uri: https://github.com/sirpdboy/luci-app-ddns-go.git
+    branch: main
 packages:
   - luci-app-ssr-plus
   - luci-app-ddns
@@ -13,7 +16,7 @@ packages:
   - luci-app-uhttpd
   - dnsmasq-full
   - luci-app-commands
-
+  - luci-app-ddns-go
 
 
 diffconfig: |
