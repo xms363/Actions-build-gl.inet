@@ -7,6 +7,9 @@ feeds:
   - name: ddns_go
     uri: https://github.com/sirpdboy/luci-app-ddns-go.git
     branch: main
+  - name: theme_argon
+    uri: https://github.com/jerrykuku/luci-theme-argon.git
+    branch: master    
 packages:
   - luci-app-ssr-plus
   - luci-app-ddns
@@ -17,6 +20,7 @@ packages:
   - dnsmasq-full
   - luci-app-commands
   - luci-app-ddns-go
+  - luci-theme-argon
 
 
 diffconfig: |
