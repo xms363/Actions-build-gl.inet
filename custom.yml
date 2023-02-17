@@ -1,6 +1,4 @@
 feeds:
-  - name: custom
-    path: ../feeds_dir/custom
   - name: helloworld
     uri: https://github.com/fw876/helloworld.git
     branch: master
