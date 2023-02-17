@@ -23,12 +23,15 @@ packages:
   - ddns-scripts
   - ddns-scripts-services
   - ddns-scripts_aliyun
+  - ddns-scripts-dnspod
   - luci-app-uhttpd
   - dnsmasq-full
   - luci-app-commands
   - luci-app-ddns-go
   - luci-theme-argon
-  - luci-app-passwall
+  - luci-app-vlmcsd
+  - luci-app-wol
+  - luci-app-ttyd
 
 
 diffconfig: |
