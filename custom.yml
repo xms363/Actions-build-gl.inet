@@ -9,6 +9,15 @@ feeds:
     branch: main
   - name: theme_argon
     uri: https://github.com/jerrykuku/luci-theme-argon.git
+    branch: master
+  - name: kenzo8
+    uri: https://github.com/kenzok8/openwrt-packages.git
+    branch: master
+  - name: small
+    uri: https://github.com/kenzok8/small.git
+    branch: master
+  - name: openwrt_pkgs
+    uri: https://github.com/sbwml/openwrt_pkgs.git
     branch: master    
 packages:
   - luci-app-ssr-plus
@@ -21,6 +30,7 @@ packages:
   - luci-app-commands
   - luci-app-ddns-go
   - luci-theme-argon
+  - luci-app-passwall
 
 
 diffconfig: |
